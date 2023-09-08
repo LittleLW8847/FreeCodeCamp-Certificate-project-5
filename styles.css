@@ -27,7 +27,9 @@ body{
     top: 0;
     left: 0;
     width: 100%;
+    height: 5rem;
     background: red;
+    align-items: center;
 }
 
 ul{
@@ -41,4 +43,28 @@ nav>ul{
 
 .nav-list li{
     margin-right: 2rem;
+}
+
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.project-section{
+    text-align: center;
+    padding: 5rem 2.5rem;
+    background-color: darkblue;
+}
+
+.project-grid{
+    display: grid;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
 }
