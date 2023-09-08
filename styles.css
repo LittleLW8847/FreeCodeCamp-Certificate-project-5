@@ -80,6 +80,13 @@ nav>ul{
     object-fit: cover;
 }
 
+@media(max-width:750px){
+    .project-grid{
+        grid-template-columns: auto;
+    }
+}
+
 img{
     display: block;
 }
+
