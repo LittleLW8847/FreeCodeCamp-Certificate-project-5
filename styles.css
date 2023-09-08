@@ -64,7 +64,10 @@ nav>ul{
 .project-grid{
     display: grid;
     width: 100%;
-    max-width: 1280px;
+    height: 85%;
+    max-width: 600px;
+    max-height: 800px;
     margin: 0 auto;
     margin-bottom: 3rem;
+    background-color: darkgray;
 }
